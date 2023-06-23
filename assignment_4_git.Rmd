@@ -58,7 +58,7 @@ GrowthSW <- GrowthSW |>
 datasummary(growth + rgdp60 ~ treat * (Mean+Median+SD+Min+Max),data=GrowthSW)
 ```
 
-**Designated place**: type one or two sentences describing this table of a fellow student below. For example, comment on the mean and median growth of both groups. Then stage, commit and push it to their github repository. 
+**Designated place**: The countries with revolutions equal to zero have a higher mean of growth than countries with more than zero. Therefore revolutions can be seen as a negative influence on growth.
 
 
 ### Part 3: Make a table summarizing reressions using modelsummary and kable
